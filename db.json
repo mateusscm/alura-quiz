@@ -1,45 +1,65 @@
 {
-    "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
-    "title": "Quiz JavaScript #AluraQuiz",
-    "description": "Um quiz rápido sobre o mundo do JavaScript",
+    "bg": "https://i.pinimg.com/originals/b8/ce/0e/b8ce0e34d820aad3e34dfffb8d8be85c.jpg",
+    "title": "Quiz Game of Thrones #AluraQuiz",
+    "description": "Um quiz rápido sobre o mundo do Game of Thrones",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-        "title": "Qual a diferença entre = , == e === ?",
+        "image": "https://media2.giphy.com/media/U3CfsSrd9CbCP95h4d/giphy.gif?cid=ecf05e47q63tpcr5f3gxex3kutyzllqau18pggaakjk6ydb7&rid=giphy.gif",
+        "title": "Qual a relação de parentesco entre Jon Snow e Daenerys Targaryen?",
         "description": "Pergunta fácil em!",
-        "answer": 1,
+        "answer": 3,
         "alternatives": [
-          "São a mesma coisa",
-          "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+          "Não há grau de parentesco",
+          "Primo e prima.",
+          "Irmão e irmã.",
+          "Sobrinho e tia"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-        "title": "Que tipos de dados são suportados em JavaScript?",
-        "description": "E agora? Você sabe?",
+        "image": "https://media0.giphy.com/media/xUPGcLin6N1GD0CjMA/giphy.gif?cid=ecf05e47m58vnih7re1ux67wu238gtra8b79msv25eqlkf7d&rid=giphy.gif",
+        "title": "O que o John Snow não sabe?",
+        "description": "Essa é complicadíssima!",
         "answer": 0,
         "alternatives": [
-          "Number, String, Undefined, Null e Bool.",
-          "Int, String, Undefined, Null e Bool."
+          "John Snow nao sabe de nada!",
+          "John Snow conhece a teoria da relatividade!",
+          "John Snow sabe o teorema de pitágoras",
+          "Nenhuma das opções anteriores"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-        "title": "Qual a diferença de window e global?",
-        "answer": 1,
+        "image": "https://media0.giphy.com/media/l3c674QYTf1w0NXk4/giphy.gif?cid=ecf05e47bmzaptrsvaixxm8jiwlx0sioxyesrfdw8mlg2eqt&rid=giphy.gif",
+        "title": "Quem é a pessoa mais foda da série e livros?",
+        "answer": 4,
         "alternatives": [
-          "São a mesma coisa",
-          "window é o escopo global no browser, e global no node"
+          "Sansa Stark",
+          "John Snow",
+          "Cersei Lannister",
+          "Tyrion Lannister",
+          "Arya Stark"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-        "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
-        "answer": 1,
+        "image": "https://media4.giphy.com/media/3og0IUia0TYpBHNNTy/giphy.gif?cid=ecf05e474llrcostdidd0h9xqjqcbyzgrclmebf9kmxqvtaa&rid=giphy.gif",
+        "title": "Quem matou o rei da noite?",
+        "answer": 2,
         "alternatives": [
-          "JSONHttpRequest",
-          "XMLHttpRequest",
-          "fetch"
+          "John Snow",
+          "Jorah Mormont",
+          "Arya Stark",
+          "Bran Stark"
+        ]
+      },
+      {
+        "image": "https://media1.giphy.com/media/1iAQLpW2DRW2k/giphy.gif?cid=ecf05e47ia0s0gfbkod055ly8v1bbp29lbnp1g89qimsutr5&rid=giphy.gif",
+        "title": "Por qual acusação Catelyn Stark captura Tyrion Lannister, o duende?",
+        "description": "Essa eu peguei pesado, admito!",
+        "answer": 2,
+        "alternatives": [
+          "Por ele roubar suas joias",
+          "Por ele ter traído os Stark's",
+          "Por ele ter enviado um mercenário para matar Bran",
+          "Por ele ter desonrado sua filha, Sansa"
         ]
       }
     ],
