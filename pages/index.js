@@ -73,7 +73,28 @@ export default function Home() {
                 placeholder="Diz ai seu nome"
                 value={name}
               />
-              <Button type="submit" disabled={name.length === 0}>
+              <Button
+                as={motion.button}
+                variants={{
+                  open: {
+                    y: 0,
+                    opacity: 1,
+                    transition: {
+                      y: { stiffness: 1000, velocity: -100 },
+                    },
+                  },
+                  closed: {
+                    y: 50,
+                    opacity: 0,
+                    transition: {
+                      y: { stiffness: 1000 },
+                    },
+                  },
+                }}
+                whileTap={{ scale: 0.95 }}
+                type="submit"
+                disabled={name.length === 0}
+              >
                 {`Jogar ${name}`}
               </Button>
             </form>

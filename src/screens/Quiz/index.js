@@ -2,6 +2,7 @@
 import React from 'react';
 import { Lottie } from '@crello/react-lottie';
 // import db from '../../../db.json';
+import { motion } from 'framer-motion';
 import Widget from '../../components/Widget';
 import QuizLogo from '../../components/QuizLogo';
 import QuizBackground from '../../components/QuizBackground';
@@ -149,7 +150,28 @@ function QuestionWidget({
           {/* <pre>
             {JSON.stringify(question, null, 4)}
           </pre> */}
-          <Button type="submit" disabled={!hasAlternativeSelected}>
+          <Button
+            as={motion.button}
+            variants={{
+              open: {
+                y: 0,
+                opacity: 1,
+                transition: {
+                  y: { stiffness: 1000, velocity: -100 },
+                },
+              },
+              closed: {
+                y: 50,
+                opacity: 0,
+                transition: {
+                  y: { stiffness: 1000 },
+                },
+              },
+            }}
+            whileTap={{ scale: 0.95 }}
+            type="submit"
+            disabled={!hasAlternativeSelected}
+          >
             Confirmar
           </Button>
           {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
